@@ -1,0 +1,73 @@
+Bottle#,Sensor data,Delay,Data,Error,Crate,Threshold
+1,1,10,1,Normal,new,10
+2,2,8,0,Normal,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,4,8,0,Physical attack,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,112,0,DoS attack,old,10
+1,2,22,1,DoS attack,new,10
+2,2,8,0,Normal,old,10
+3,2,5,0,Physical attack,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,2,8,0,Normal,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,2,8,0,Normal,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,2,8,0,Normal,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,2,8,0,Normal,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,2,8,0,Normal,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,2,8,0,Normal,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,4,8,0,Physical attack,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,112,0,DoS attack,old,10
+1,2,22,1,DoS attack,new,10
+2,2,8,0,Normal,old,10
+3,2,5,0,Physical attack,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,2,0,Normal,old,10
+1,1,10,1,Normal,new,10
+2,4,8,0,Physical attack,old,10
+3,3,5,0,Normal,old,10
+4,4,7,0,Normal,old,10
+5,5,8,0,Normal,old,10
+6,6,112,0,DoS attack,old,10

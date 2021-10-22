@@ -1,0 +1,9 @@
+geth --datadir node2/ --syncmode 'full' --port 30312 --rpc --rpcaddr 'localhost' --rpcport 8502 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://97bb89497d2454ac6bb8cfb5fb66ecc755c332f515b848b0e57979d304330169a685403b45aacd3b0708c7df0e30efd37f7288103411483bef606568ed643785@127.0.0.1:30310' --networkid 1515 --gasprice '0' -unlock 'cec646349d71e34c0c128eea6b88ddfa0e60431b' --password node2/password.txt --mine
+
+
+
+geth --datadir node1/ --syncmode 'full' --port 30311 --rpc --rpcaddr 'localhost' --rpcport 8501 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://97bb89497d2454ac6bb8cfb5fb66ecc755c332f515b848b0e57979d304330169a685403b45aacd3b0708c7df0e30efd37f7288103411483bef606568ed643785@127.0.0.1:30310' --networkid 1515 --gasprice '1' -unlock '0337518b10d11ff8c475ab2508ea120e3d7f41e7' --password node1/password.txt --mine
+
+bootnode -nodekey boot.key -verbosity 9 -addr :30310
+
+eth.sendTransaction({'from':eth.coinbase, 'to':'0x29a86118C1Ff89d474E9497D8B3FA890D9F7e30C', 'value':1000000000000000000000})
